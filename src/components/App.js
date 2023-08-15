@@ -13,14 +13,14 @@ function App() {
     city: "LA",
     bio: "I am A Software Developer",
     github: "https://github.com/Martoh003",
-    linkedin:"https://linkedin.com/in/Martoh003"
+    linkedin:"https://www.linkedin.com/in/martin-abwaka-b98a12229/"
   };
 
   return (
     <div>
       <NavBar />
-      <Home user={user} />
-      <About user={user} />
+      <Home name={user.name} city={user.city} />
+      <About bio={user.bio} github={user.github} linkedin={user.linkedin} />
     </div>
   );
 }
