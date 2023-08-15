@@ -6,7 +6,7 @@
 - Pass props from a parent component to a child component
 
 ## Introduction
-
+ 
 Previously, we had been importing some data directly into each component that
 needed it using `import`. When we're working with React, we'll often access data
 by passing it down as a `prop` rather than importing it. This will be
